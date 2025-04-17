@@ -1,9 +1,9 @@
-name: Java CI with Maven
+name:
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:  # запуск вручну
+  workflow_dispatch:
 
 jobs:
   build:
